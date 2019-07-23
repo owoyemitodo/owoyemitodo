@@ -1,0 +1,123 @@
+body {
+    background-image: url(https://cdn-images-1.medium.com/max/900/1*gnUBeL-INIVDk0_GyL8x1g.png);
+    background-size: 100%;
+    /* or */
+    /* background-color: lightsalmon; */
+
+    margin: 0;
+    color: cyan;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inp {
+    display: inline;
+}
+
+#action {
+    margin-left: 225px;
+}
+
+#wrapper {
+    width: 450px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 5%;
+
+    background-color: rgb(0, 0, 54);
+    padding: 20px;
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    #wrapper {
+        width: 310px;
+        display: inline-block;
+        font-size: 0.7em;
+        border-radius: 25px;
+        margin-top: 5%;
+        background-color: rgb(0, 0, 54);
+        padding: 15px;
+        padding-top: 5px;
+    }
+    #action {
+        margin-left: 115px;
+    }
+}
+
+#add {
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 10px;
+    margin-right: 4%;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    width: 27%;
+}
+
+#add:hover {
+    background-color: rgb(63, 0, 21);
+    color: aliceblue;
+    padding: 10px 10px;
+    margin-right: 4%;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    width: 27%;
+}
+
+.remove {
+    background-color: red;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    float: right;
+    clear: right;
+    border-style: none;
+    width: 60px;
+    height: 20px;
+}
+
+.update {
+    background-color: pink;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 3px;
+    cursor: pointer;
+    float: right;
+    clear: left;
+    border-style: none;
+    width: 60px;
+    height: 20px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    line-height: 35px;
+}
+#task {
+    width: 63%;
+    height: 33px;
+    margin-left: 4%;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#todos {
+    margin-left: -3%;
+    margin-right: 5%;
+}
